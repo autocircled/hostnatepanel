@@ -1,0 +1,11 @@
+# WHMCS Hostma-Hosting Theme Configuration File
+
+name: "Hostma-Hosting"
+description: "SPRUKO TEMPLATE"
+author: "SPRUKO TECHNOLOGIES PRIVATE LIMITED"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+provides:
+  bootstrap: 4.5.3
+  jquery: 1.12.4
+  fontawesome: 5.10.1
