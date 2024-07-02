@@ -82,10 +82,12 @@
                 <a class="navbar-brand mr-3" href="https://hostnate.com/" target="_blank">
                     {if $assetLogoPath}
                     <div class="navbar-brand" onclick="homePage()">
-                        <img src="{$WEB_ROOT}/templates/{$template}/custom/img/brand-logo/logo.gif" width="200px" alt="{$companyname}" />
+                        {* <img src="{$WEB_ROOT}/templates/{$template}/custom/img/brand-logo/logo.gif" width="200px" alt="{$companyname}" /> *}
                     </div>
                     {else}
-                        <a href="{$WEB_ROOT}/index.php" class="logo logo-text">{$companyname}</a>
+                        <a href="https://hostnate.com/" class="logo logo-text">
+                        <img src="https://panel.hostnate.com/admin/templates/blend/images/logo.png" width="200px" alt="{$companyname}" />
+                        </a>
                     {/if}
                 </a>
 			

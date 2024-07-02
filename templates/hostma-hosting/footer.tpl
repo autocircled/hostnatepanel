@@ -158,6 +158,13 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
+<script>
+jQuery(document).ready(function($){
+    const navMenu = $('.navbar .navbar-nav');
+    console.log(navMenu);
+});
+</script>
     
 
 </body>
